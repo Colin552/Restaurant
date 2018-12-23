@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Garamond');
+.main {
+  background-color:#FCF8F4;
+}
+
+.middle-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  background-color:#FCF8F4;
+}
+
+.middle-content p {
+  font-family: Cormorant;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.background-image{
+  min-height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./images/table.jpg");
+}
+
+.card-holder {
+  background-color: #FCF8F4;
+  height: 100%;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card {
+  min-width: 600px;
+  width: 50%;
+  background-color: rgb(172, 202, 241);
+  margin-left: 12%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0%;
+}
+
+.card p {
+  font-family: Cormorant;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.card h1 {
+  text-align: center;
+  font-family: Cormorant;
+}
+
+.card hr {
+  width: 80%;
+  align-self: center;
+  border: none;
+  height: 2px;
+  background: rgb(10, 126, 134);
+}

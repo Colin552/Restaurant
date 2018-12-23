@@ -1,0 +1,22 @@
+.carousel-indicators li {
+    border-radius: 100% !important;
+    height: 0.75rem !important;
+    width: 0.75rem !important;
+    display: inline-block !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.carousel-indicators .active{
+    background-color: darkred !important;
+}
+
+.carousel img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
+

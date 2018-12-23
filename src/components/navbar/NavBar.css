@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Garamond");
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 80px;
+    z-index: 9999;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.nav-bar.change {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background-color: white;
+    height: 80px;
+}
+
+.nav-bar-navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+
+
+.nav-bar-logo img {
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 100px;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.nav-bar-logo.change img {
+    height: 60px;
+    margin-left: 35px;
+    margin-top: 0px;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.Spacer {
+    flex: 1;
+}
+
+.nav-bar-items {
+    margin-top: 3rem;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.nav-bar-items.change {
+    margin-top: 0rem;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.nav-bar-items ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0rem 2rem;
+    padding: 0px;
+    display: flex;
+}
+
+.nav-bar-items li {
+    padding: 0rem 2rem;
+}
+
+.nav-bar-items a {
+    color: black;
+    text-decoration: none;
+    font-family: Garamond;
+    font-size: 1.5rem;
+}
+
+.nav-bar-items a:hover {
+    color: #96858f;
+    text-decoration: none;
+}
+.nav-bar-items a:active {
+    color: orangered;
+}
