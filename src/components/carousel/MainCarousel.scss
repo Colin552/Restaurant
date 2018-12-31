@@ -7,16 +7,16 @@
     margin-right: 1rem !important;
 }
 
-.carousel-indicators .active{
+.carousel-indicators .active {
     background-color: darkred !important;
 }
 
-.carousel img{
-    display: block;
+.carousel img {
+    
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+
 }
 
 @import "~bootstrap/scss/bootstrap.scss";
-

@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./MainCarousel.scss";
-import {
-    Carousel,
-    CarouselItem,
-    CarouselIndicators
-} from "reactstrap";
+import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 
 import slide1 from "../../images/chinese-food.jpg";
 import slide2 from "../../images/chinese-food2.jpg";
@@ -79,9 +75,8 @@ class MainCarousel extends Component {
                     onExited={this.onExited}
                     key={item.src}
                 >
-                    <img src={item.src} alt={item.altText}  />
 
-                    
+                    <img src={item.src} alt={item.altText} />
                 </CarouselItem>
             );
         });
@@ -92,16 +87,13 @@ class MainCarousel extends Component {
                 activeIndex={activeIndex}
                 next={this.next}
                 previous={this.previous}
-                
             >
-            
                 <CarouselIndicators
                     items={items}
                     activeIndex={activeIndex}
                     onClickHandler={this.goToIndex}
                 />
                 {slides}
-
             </Carousel>
         );
     }

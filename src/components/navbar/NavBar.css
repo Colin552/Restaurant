@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant|Garamond");
+
 .nav-bar {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     background-color: transparent;
-    height: 80px;
+    height: 8%;
     z-index: 9999;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -19,7 +20,7 @@
     -o-transition: 0.5s;
     transition: 0.5s;
     background-color: white;
-    height: 80px;
+    
 }
 
 .nav-bar-navigation {
@@ -29,13 +30,14 @@
     padding: 0 1rem;
 }
 
-
+.nav-bar-logo {
+    min-width: 44rem;
+}
 
 .nav-bar-logo img {
-    margin-left: 10px;
-    margin-top: 50px;
-    height: 100px;
-
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 20%;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -43,9 +45,10 @@
 }
 
 .nav-bar-logo.change img {
-    height: 60px;
-    margin-left: 35px;
-    margin-top: 0px;
+
+    width: 11%;
+    margin-left: 10%;
+    margin-top: 1%;
 
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -58,15 +61,15 @@
 }
 
 .nav-bar-items {
-    margin-top: 3rem;
+    margin-top: 3%;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 
 .nav-bar-items.change {
-    margin-top: 0rem;
+    margin-top: 0%;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -76,13 +79,14 @@
 .nav-bar-items ul {
     list-style: none;
     background-color: rgba(255, 255, 255, 0.8);
-    margin: 0rem 2rem;
-    padding: 0px;
+    margin: 0% 0%;
+    padding: 0%;
     display: flex;
 }
 
 .nav-bar-items li {
-    padding: 0rem 2rem;
+    padding: 0 3rem;
+    white-space: nowrap;
 }
 
 .nav-bar-items a {

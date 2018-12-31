@@ -10,6 +10,7 @@
     "react-dom": "^16.6.3",
     "react-image-parallax2": "^0.1.6",
     "react-media": "^1.8.0",
+    "react-responsive": "^6.0.1",
     "react-scripts": "2.1.1",
     "reactstrap": "^6.5.0"
   },
