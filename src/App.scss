@@ -4,18 +4,24 @@
 }
 
 .middle-content {
+  margin: 0;
+  min-width: 100%;
+  height: 100%;
+  clear: both;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 10%;
   padding-right: 10%;
   text-align: center;
   background-color:#FCF8F4;
+
 }
 
 .middle-content p {
   font-family: Cormorant;
   font-size: 1.8rem;
   line-height: 2.5rem;
+
 }
 
 .background-image{
@@ -62,4 +68,9 @@
   border: none;
   height: 2px;
   background: rgb(10, 126, 134);
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

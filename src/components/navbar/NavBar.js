@@ -94,13 +94,17 @@ class NavBar extends Component {
                     </div>
                 </MediaQuery>
                 <MediaQuery query="(max-width: 1200px)">
+                 
                     <div className="nav-bar-mobile">
+                    
                         <div className="nav-bar-logo-mobile">
                             <a href="/">
                                 <img src={jia} alt="Chinese Jia Character" />
                             </a>
                         </div>
                         <div className="Spacer" />
+                        
+                        
                         <div
                             className={"nav-bar-drop" + this.state.dropModifier}
                             onClick={this.DropDownToggle.bind(this)}
@@ -111,8 +115,12 @@ class NavBar extends Component {
                                 <div className="bar3" />
                             </div>
                         </div>
+                        
                     </div>
+                    
                     { dropDown }
+                    
+                    <div/>
                 </MediaQuery>
             </header>
         );
